@@ -1,3 +1,32 @@
+# Maven build artifacts
+target/
+*.class
+
+# Test outputs
+test-output.txt
+test-temp.txt
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
 target/classes/com/example/demo/AdvancedIssuesDemo.class
 target/classes/com/example/demo/AdvancedIssuesDemo$BadComparator.class
 target/classes/com/example/demo/AdvancedIssuesDemo$BadEqualsHashCode.class
